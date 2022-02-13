@@ -1,6 +1,6 @@
 # Dependencies
 import datetime as dt
-from lib2to3.pytree import _Results
+# from lib2to3.pytree import _Results
 import numpy as np
 import pandas as pd
 
@@ -40,11 +40,11 @@ app = Flask(__name__)
 def welcome():
     return(
     '''
-    Welcome to the Climate Analysis API!
-    Available Routes:
-    /api/v1.0/precipitation
-    /api/v1.0/stations
-    /api/v1.0/tobs
+    Welcome to the Climate Analysis API!<br/>
+    Available Routes:<br/>
+    /api/v1.0/precipitation<br/>
+    /api/v1.0/stations<br/>
+    /api/v1.0/tobs<br/>
     /api/v1.0/temp/start/end
     ''')
 # Precepitation Route
@@ -66,10 +66,10 @@ def stations():
 def temp_monthly():
     prev_year = dt.date(2017, 8, 23) - dt.timedelta(days=365)
     results = session.query(Measurement.tobs).\
-    filter(Measurement.station == 'USC00519281').\
-    filter(Measurement.station >= prev_year).all()
-    temp_monthly = list(np.ravel(results))
-    return jsonify(temp_monthly=temp_monthly)
+      filter(Measurement.station == 'USC00519281').\
+      filter(Measurement.date >= prev_year).all()
+    temps = list(np.ravel(results))
+    return jsonify(temps=temps)
 # Statistics Route
 @app.route("/api/v1.0/temp/<start>")
 @app.route("/api/v1.0/temp/<start>/<end>")
