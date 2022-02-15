@@ -13,12 +13,13 @@
     )
 2. Similarly when we review the 2 charts above we see that the standard deviation for each month is roughly similar, being off by only .53 difference.  This should indicate that statistically the data sets are nearly the same.  Ultimately December data falls within 1-2 Standard deviations of the June data - meaning the weather in December while less likely to resemeble June; would still feel fairly similarly.   
     
-3.  The Average temperatures measured during both time periods fall within 4 degrees of one another. So again we shouldn't be surprised to see business remain steady when comparing expecations based on outdoor temperatures - assuming all other things are equal.   
+3.  The Average temperatures measured during both time periods fall within 4 degrees of one another. So again we shouldn't be surprised to see business remain steady when comparing expectaions based on outdoor temperatures - assuming all other things are equal.   
 
 
 # Additional Analyses 
+I would say that the preliminary data shows fare enough weather trends that we should expect to be open in June and December; as long as we assume no additional forces would interrupt business.  However, just because these 2 months appear to be pleasant enough to surf in, doesn't mean we should continue ahead with our plans.  Additional testing and contextual understanding of these and other analyses would be necessary.  In consideration of the information already available to us, I believe that we could gain a great deal of insight by pursuing the following investigations:
 
-1.  It would make sense to dive deeper, no pun intended, into temperature data on 2 fronts: 1 on a quarterly front to more accurately define what should be expected over longer periods of time.  Understanding the overall quarterly pattern of the weather will allow for more clear business decisions, specifically when decideing whether or not to be operating during a particular time period.    
+1.  It would make sense to dive deeper, no pun intended, into temperature data on 2 fronts: 1 on a quarterly front to more accurately define what should be expected over longer periods of time.  Understanding the overall quarterly pattern of the weather will allow for more clear business decisions, specifically when decideing whether, or not to be operating during a particular time period.    
 
 2.  Additionally, a through analysis of the water temperatures during the times specified above would be incredibly helpful.  We would obviously expect to see a direct correlation between the registered temperatures, and the water temperatures - however, we may find that the water temperatures are too cold for the tourists to be interested in surfing or shakes.  
 
